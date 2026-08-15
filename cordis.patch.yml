@@ -1,0 +1,6 @@
+# Bundle patch for @deepseek-ai/dsh-dot-background.
+# Applied as the final profile layer so the plugin's client CSS is inserted
+# after the built-in conversation/layout rows and wins by cascade order.
+- insert:
+    - id: dot-background
+      name: '@deepseek-ai/dsh-dot-background'
