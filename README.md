@@ -1,5 +1,7 @@
 # DeepSeek Harness Dot Background
 
+[中文文档](README.zh.md)
+
 A plug-and-play [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web plugin that replaces the conversation-area backdrop with a living, dot-matrix DeepSeek whale rendered on canvas.
 
 ![demo](docs/demo.gif)

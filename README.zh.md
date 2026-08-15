@@ -1,5 +1,7 @@
 # DeepSeek Harness 点阵背景插件
 
+[English](README.md)
+
 一个可插拔的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 插件：把会话区域背景替换为由 Canvas 实时渲染的 DeepSeek 点阵鲸鱼。
 
 ![demo](docs/demo.gif)
