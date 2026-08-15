@@ -78,6 +78,10 @@ dsh plugin --profile web remove @deepseek-ai/dsh-dot-background
 | `ALPHA_MIN` | `0.88` | 呼气时的最低整体透明度 |
 | `LOGO_WIDTH_RATIO` | `0.82` | 鲸鱼宽度与会话列宽度的比例 |
 | `LOGO_VERTICAL_ALIGN` | `0.76` | 鲸鱼的垂直位置 |
+| `ALPHA_DEPTH_MIN` | `0.02` | 波谷处单点最低透明度（几乎完全透明） |
+| `ALPHA_DEPTH_MAX` | `1` | 波峰处单点最高透明度 |
+| `SIZE_DEPTH_MIN` | `0.52` | 单点最小半径系数 |
+| `SIZE_DEPTH_MAX` | `1` | 单点最大半径系数 |
 
 点阵数据（位置、基础半径、基础透明度）由 DeepSeek FishLogo 路径采样生成。修改采样参数后，重新生成 client bundle：
 

@@ -78,6 +78,10 @@ Animation constants live at the top of [`lib/client.template.js`](lib/client.tem
 | `ALPHA_MIN` | `0.88` | Minimum global opacity during exhale |
 | `LOGO_WIDTH_RATIO` | `0.82` | Whale width relative to the conversation column |
 | `LOGO_VERTICAL_ALIGN` | `0.76` | Vertical placement of the whale |
+| `ALPHA_DEPTH_MIN` | `0.02` | Minimum per-dot opacity at the wave trough (almost fully transparent) |
+| `ALPHA_DEPTH_MAX` | `1` | Maximum per-dot opacity at the wave crest |
+| `SIZE_DEPTH_MIN` | `0.52` | Minimum per-dot radius factor |
+| `SIZE_DEPTH_MAX` | `1` | Maximum per-dot radius factor |
 
 The dot field itself (positions, base radius, base alpha) is generated from the DeepSeek FishLogo path. After changing sampling parameters, regenerate the client bundle:
 

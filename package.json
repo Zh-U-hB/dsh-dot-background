@@ -1,7 +1,7 @@
 {
   "name": "@deepseek-ai/dsh-dot-background",
   "description": "DeepSeek Harness Web plugin: a breathing, color-shifting DeepSeek dot-matrix whale backdrop rendered on canvas",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publishConfig": {
     "access": "public"
   },
